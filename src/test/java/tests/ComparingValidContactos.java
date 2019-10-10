@@ -9,9 +9,13 @@ import pages.SearchPage;
 public class ComparingValidContactos {
 
     @Test
-    public void comparingValidContactos(){
+    public void comparingValidContactos() {
         SearchPage first = new SearchPage();
+        first.SearchPage();
         FoundingResultsPage second = new FoundingResultsPage();
+        second.FoundingResultsPage();
         ContactInformationPage third = new ContactInformationPage();
+        third.ContactInformationPage();
     }
+
 }
